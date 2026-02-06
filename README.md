@@ -11,9 +11,7 @@ project/
 ├── server.py # Single-server implementation
 ├── project2server.py # Multi-client threaded server
 
-
 ```
-
 ## 🔐 Features
 
 - **Vigenère Cipher Encryption**: Secure message transmission using classical cryptography
@@ -24,11 +22,7 @@ project/
 - **Real-time Encryption/Decryption**: Watch messages transform in the terminal
 - **Clean Exit Protocol**: Proper handling of client disconnections
 
-## 🛠️ Installation & Requirements
 
-### Prerequisites
-- Python 3.6 or higher
-- No external dependencies required
 
 ## 🚀 How to Run
 
@@ -38,6 +32,17 @@ project/
    python server.py
 
 2. Start the client (in another terminal):
+   ```bash
+   python client.py
+
+### Option 2: Multi-Client Server (Advanced)
+1. **Start the server** (in one terminal):
+   ```bash
+   python project2server
+   .py
+
+2. Start the client (in another terminal):
+   ```bash
    python client.py
 
 
