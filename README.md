@@ -4,13 +4,13 @@
 A Python-based client-server chat application with built-in encryption using the Vigenère cipher, simulating an encrypted conversation with a Siri-like virtual assistant.
 
 ## 📁 Project Structure
-
+'''
 project/
 ├── client.py # Single-client implementation
 ├── server.py # Single-server implementation
 ├── project2server.py # Multi-client threaded server
 └── README.md # This file
-
+'''
 
 ## 🔐 Features
 
